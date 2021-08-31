@@ -2,7 +2,7 @@
 
 
 import param
-from awesome_panel.utils import OrderByNameMixin
+from package.awesome_panel.utils import OrderByNameMixin
 
 
 class Tag(OrderByNameMixin, param.Parameterized):

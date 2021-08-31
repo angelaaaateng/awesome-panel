@@ -8,7 +8,7 @@ Use the Theme model to
 
 import holoviews as hv
 import param
-from awesome_panel.application import assets
+from package.awesome_panel.application import assets
 from bokeh.themes.theme import Theme as BokehTheme
 from holoviews import Cycle
 

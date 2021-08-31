@@ -1,7 +1,8 @@
 """This module implements the Page Model"""
 import param
-from awesome_panel.application.models.author import Author
-from awesome_panel.utils import OrderByNameMixin
+# from awesome_panel.application.models.author import Author
+from package.awesome_panel.application.models.author import Author
+from package.awesome_panel.utils import OrderByNameMixin
 
 
 class Page(OrderByNameMixin, param.Parameterized):
